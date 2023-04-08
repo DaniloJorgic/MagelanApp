@@ -1,0 +1,57 @@
+package com.example.magelanapp;
+
+import com.google.firebase.firestore.GeoPoint;
+import com.google.firebase.firestore.ServerTimestamp;
+
+import java.util.Date;
+
+public class UserLocation {
+
+    private String user;
+    private GeoPoint geo_point;
+    private @ServerTimestamp Date timestamp;
+
+    public UserLocation(String user, GeoPoint geo_point, Date timestamp) {
+        this.user = user;
+        this.geo_point = geo_point;
+        this.timestamp = timestamp;
+    }
+
+    public UserLocation() {
+
+    }
+
+    public String getUser(String user) {
+        return this.user;
+    }
+
+    public void setUser(String user) {
+        this.user = user;
+    }
+
+    public GeoPoint getGeo_point() {
+        return geo_point;
+    }
+
+    public void setGeo_point(GeoPoint geo_point) {
+        this.geo_point = geo_point;
+    }
+
+    public Date getTimestamp() {
+        return timestamp;
+    }
+
+    public void setTimestamp(Date timestamp) {
+        this.timestamp = timestamp;
+    }
+
+    @Override
+    public String toString() {
+        return "UserLocation{" +
+                "user=" + user +
+                ", geo_point=" + geo_point +
+                ", timestamp=" + timestamp +
+                '}';
+    }
+
+}

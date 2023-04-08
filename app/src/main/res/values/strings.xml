@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MagelanApp</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="google_maps_key">AIzaSyD7gqHXk-fp61SZEXlCtpWmlCLcnkJ69IU</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Registracija</string>
+    <string name="click_to_login">Klik za login</string>
+    <string name="click_to_register">Klik za registraciju</string>
+    <string name="logout">Logout</string>
+</resources>
